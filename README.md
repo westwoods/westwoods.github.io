@@ -1,74 +1,42 @@
-# Particle Jekyll Theme
+# Paper for Jekyll
+A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
 
-![](./particle.jpg)
+![screenshot](assets/screenshots/mockup.jpg)
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+## Demo
+ [dbtek.github.io/paper-demo](http://dbtek.github.io/paper-demo)
 
-The Theme features:
+### Batteries Included
+There are many cool features bundled with Paper such as:
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+- Full Github Pages support.
+- Responsive layout.
+- Dynamic search with [jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search/).
+- Customizable theme colors.
+- Sass variables.
+- RSS feed.
+- Post tags and categories.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
 
-## Basic Setup
+### Tech
+Under the hood Paper contains:  
+- Material Design Lite.
+- CoffeeScript.
+- Sass.
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
+### Install
+Easiest way of getting Paper work is forking.
 
-## Site and User Settings
+- Fork the [repo](https://github.com/dbtek/paper).
+- Rename forked repo as `username.github.io`.
+- Set up blog by editing `_config.yml`.
+- Enjoy.
 
-You have to fill some informations on `_config.yml` to customize your site.
+### Author
+Ismail Demirbilek
+[@dbtek](https://twitter.com/dbtek)
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
-
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
-
-**Don't forget to change your url before you deploy your site!**
-
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
-
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install`
-- Run `gulp`
-
-## Questions
-
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
-
-## Credits
-
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+### License
+[MIT](http://opensource.org/licenses/MIT)
