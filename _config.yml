@@ -1,20 +1,38 @@
-# Site settings
+
+
 title: techwoods
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://westwoods.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-# User settings
-username: westwoods
-user_description: 안녕하세요
-user_title: westwoods
-email: kdw8681@naver.com
-twitter_username: null
-github_username:  westwoods
-gplus_username:  null
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
+gems: [jekyll-paginate, jekyll-coffeescript]
 
-# Google-analytics
-google-analytics:
-  id: kdw8681
+# comments
+disqus: # add disqus shortname here
 
-exclude: ['package.json', 'src' , 'node_modules']
+# author info
+# add your appropriate info here
+author: westwoods # your name
+bio:   # your bio
+email:
+email_md5: # md5 hash of your email
+twitter_username:
+github_username: westwoods
+
+# Theming options
+# These settings are mandatory.
+theme:              'blue-pink'
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
